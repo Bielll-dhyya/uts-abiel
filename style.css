@@ -1,0 +1,103 @@
+/* style untuk backgorunf dan font */
+body {
+    background-color:rgb(87, 83, 83);
+    font-family:Verdana
+    }
+
+/* style untuk class konten */
+.konten {
+background-color: rgb(116, 98, 98);
+border: 3px solid rgb(255, 255, 255);
+padding: 15px;
+margin-bottom: 5px;
+margin: 5%;
+margin-right: 30%;
+border-radius: 5%;
+color: white;
+margin-left: 2%;
+}
+
+/* efek hover merubah backgroud */
+.konten:hover {
+    background-color: grey;
+}
+
+/* style untuk class content */
+.content{
+    background-color: rgb(116, 98,98);
+    border: 3px solid white;
+    color: white;
+    text-align:left;
+    margin: 50px
+}
+
+/* efek hover merubah background */
+.content:hover {
+    background-color: grey;
+}
+
+/* style untuk foto profil */
+img {
+    width: 300px;
+    height: 300px;
+    border: solid rgb(255, 255, 255);
+    border-radius: 5%;
+    float: right;
+    margin-right: 2%;
+    margin-top: -5%;
+    
+}
+
+/* efek hover merubah ukuran */
+img:hover {
+    transform: scale(1.2);
+}
+.container {
+display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* style untuk id sosmed */
+#sosmed {
+    background-color: rgb(116, 98, 98);
+    color: white;
+    border: 3px solid white;
+    margin-right: 70%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+/* efek hover merubah background */
+#sosmed:hover {
+    background-color: grey;
+
+}
+
+#Makanan {
+     background-color: rgb(116, 98, 98);
+    color: white;
+    border: 3px solid white;
+    margin-right: 70%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+#Makanan:hover {
+    background-color: grey;
+}
+
+/* style untuk footer */
+.foot {
+    text-align: center;
+    background-color: white;
+}
+
+/* efek hover merubah background dan ukuran */
+.foot:hover {
+    transform: scale(1.2);
+    background-color: grey
+}
+
